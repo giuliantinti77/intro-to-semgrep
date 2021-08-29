@@ -5,6 +5,10 @@
 
 import server = require('./../server')
 
+// custom api secret = ****************
+
+// hardening code aplicado
+
 // eslint-disable-next-line no-async-promise-executor
 export = async () => await new Promise(async (resolve, reject) =>
   await server.start(err => {
